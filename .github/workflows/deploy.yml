@@ -36,3 +36,4 @@ jobs:
                       cd /var/www/duan/test_deploy
                       git pull origin master
                       composer install
+                      chmod -R 777 storage/logs
