@@ -35,3 +35,4 @@ jobs:
                   script: |
                       cd /var/www/duan/test_deploy
                       git pull origin master
+                      composer install
